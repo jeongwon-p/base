@@ -1,6 +1,6 @@
 package com.example.auth.dto.request;
 
-import com.example.auth.entity.Member;
+import com.example.auth.entity.User;
 
 public class UserJoinRequestBody {
 
@@ -8,8 +8,8 @@ public class UserJoinRequestBody {
 
     private String name;
 
-    public Member toEntity(){
-        return new Member(id, name);
+    public User toEntity(){
+        return new User(id, name);
     }
 
     public String getId() {

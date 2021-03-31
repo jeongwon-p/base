@@ -1,9 +1,9 @@
 package com.example.auth.dao;
 
-import com.example.auth.entity.Member;
+import com.example.auth.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface MemberRepository extends JpaRepository<Member, String> {
+public interface UserRepository extends JpaRepository<User, String> {
 }

@@ -1,6 +1,6 @@
 package com.example.auth.dto.request;
 
-public class UserSignInRequestBody {
+public class SignInRequestBody {
 
     private String userId;
 

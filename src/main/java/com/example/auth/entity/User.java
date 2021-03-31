@@ -8,17 +8,17 @@ import javax.persistence.Table;
 @Table(
         name = "member"
 )
-public class Member {
+public class User {
 
     @Id
     private String id;
 
     private String name;
 
-    public Member() {
+    public User() {
     }
 
-    public Member(String id, String name) {
+    public User(String id, String name) {
         this.id = id;
         this.name = name;
     }
