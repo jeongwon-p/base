@@ -6,7 +6,6 @@ import javax.persistence.Table;
 
 @Entity
 @Table(
-        schema = "study_db",
         name = "member"
 )
 public class Member {
@@ -17,7 +16,6 @@ public class Member {
     private String name;
 
     public Member() {
-
     }
 
     public Member(String id, String name) {
