@@ -1,7 +1,7 @@
 #MYSQL
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/dbbase?autoReconnect=true&useSSL=false
+    url: jdbc:mysql://localhost:3306/dbbase?autoReconnect=true&useSSL=false&serverTimezone=UTC
     username: root
     password: 1234
   jpa:
